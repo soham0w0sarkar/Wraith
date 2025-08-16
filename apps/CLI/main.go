@@ -1,7 +1,7 @@
 package main
 
-import "Wraith/apps/CLI/cmd"
+import "github.com/soham0w0sarkar/wraith/apps/CLI/cmd"
 
 func main() {
-	cmd.Execute()
+    cmd.Execute()
 }

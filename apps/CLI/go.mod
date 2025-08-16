@@ -1,4 +1,4 @@
-module github.com/soham0w0sarkar/wraith/apps/CLI
+module github.com/soham0w0sarkar/Wraith/apps/CLI
 
 go 1.22
 

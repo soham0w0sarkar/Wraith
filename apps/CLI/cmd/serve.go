@@ -83,7 +83,6 @@ func handleWS(conn *websocket.Conn) {
 	}
 	defer func() { _ = ptmx.Close() }()
 
-	// read from PTY -> WS
 	go func() {
 		buf := make([]byte, 1024)
 		for {
